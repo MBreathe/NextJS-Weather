@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# _WeatherDash_
 
-## Getting Started
+![Static Badge](https://img.shields.io/badge/Next.js-252423?logo=next.js)
+![Static Badge](https://img.shields.io/badge/TypeScript-252423?logo=typescript)
+![Static Badge](https://img.shields.io/badge/Tailwind-252423?logo=tailwindcss)
+![Static Badge](https://img.shields.io/badge/MongoDB-252423?logo=mongodb)
+![Static Badge](https://img.shields.io/badge/Prettier-252423?logo=prettier)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Description
+
+***WeatherDash*** is an app for showing weather for your current position with 
+capabilities for searching and picking a random city if you are feeling lucky.
+Registration capabilities bring an ability to save your favorite places and see 
+their weather conditions at a glance on your personalized dashboard.
+
+_**PS**: this project is currently **WIP** and will be updated._
+
+---
+
+## Features
+
+```
+    must-have:
+        -show weather for current location
+        -search for other cities' weather
+        -randomly pick a city and show its weather
+        -registration and logging in
+        -adding favs and showing them in a dash
+        
+    should-have:
+        -0Auth for handling logging in via Google and Apple
+        -MongoDB for storing users and their favs
+        
+    could-have:
+        -show extra info on each city user searches for
+        -have extra weather info besides basic weather conditions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+***THIS SECTION IS WIP***
 
-## Learn More
+Glassmorph design with a "tactile" feel.
 
-To learn more about Next.js, take a look at the following resources:
+_design snippets are coming soon_
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Assets/Inspo/Refs
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-252423)](https://openweathermap.org/)
+[![Awwwards](https://img.shields.io/badge/Awwwards-252423?logo=awwwards)](https://www.awwwards.com/)
+[![Figma](https://img.shields.io/badge/Figma-252423?logo=figma)](https://www.figma.com/)
+[![Huemint](https://img.shields.io/badge/Huemint-252423?logo=huemint)](https://www.huemint.com/)
