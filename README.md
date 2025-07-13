@@ -44,7 +44,7 @@ _**PS**: this project is currently **WIP** and will be updated._
 
 ***THIS SECTION IS WIP***
 
-Glassmorph design with a "tactile" feel.
+Brutalist
 
 _design snippets are coming soon_
 
