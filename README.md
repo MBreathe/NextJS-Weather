@@ -10,9 +10,9 @@
 
 ## Description
 
-***WeatherDash*** is an app for showing weather for your current position with 
+**_WeatherDash_** is an app for showing weather for your current position with
 capabilities for searching and picking a random city if you are feeling lucky.
-Registration capabilities bring an ability to save your favorite places and see 
+Registration capabilities bring an ability to save your favorite places and see
 their weather conditions at a glance on your personalized dashboard.
 
 _**PS**: this project is currently **WIP** and will be updated._
@@ -28,11 +28,11 @@ _**PS**: this project is currently **WIP** and will be updated._
         -randomly pick a city and show its weather
         -registration and logging in
         -adding favs and showing them in a dash
-        
+
     should-have:
         -0Auth for handling logging in via Google and Apple
         -MongoDB for storing users and their favs
-        
+
     could-have:
         -show extra info on each city user searches for
         -have extra weather info besides basic weather conditions
@@ -42,7 +42,7 @@ _**PS**: this project is currently **WIP** and will be updated._
 
 ## Design
 
-***THIS SECTION IS WIP***
+**_THIS SECTION IS WIP_**
 
 Brutalist
 

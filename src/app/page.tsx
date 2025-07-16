@@ -1,15 +1,24 @@
-"use client"
-import {useEffect, useState} from "react";
+"use client";
+import { useEffect, useState } from "react";
 import fetcher from "@/app/utils/fetcher";
 
 export default function Home() {
-  const [coords, setCoords] = useState<{coords: {lat: number, lon: number}, unit: string} | null>(null);
+  const [coords, setCoords] = useState<{
+    coords: { lat: number; lon: number };
+    unit: string;
+  } | null>(null);
   const [temp, setTemp] = useState<number>(0);
 
   useEffect(() => {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(position => {
-        setCoords({coords: {lat: position.coords.latitude, lon: position.coords.longitude}, unit: "metric"});
+      navigator.geolocation.getCurrentPosition((position) => {
+        setCoords({
+          coords: {
+            lat: position.coords.latitude,
+            lon: position.coords.longitude,
+          },
+          unit: "metric",
+        });
       });
     }
   }, []);
@@ -21,15 +30,15 @@ export default function Home() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(coords)
-      }
+        body: JSON.stringify(coords),
+      };
       try {
         const data = await fetcher("/api/weather", options);
         setTemp(data.main.temp);
       } catch (e) {
         console.error(e);
       }
-    }
+    };
     fetchWeather();
   }, [coords]);
 
