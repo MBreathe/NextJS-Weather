@@ -4,6 +4,8 @@
 ![Static Badge](https://img.shields.io/badge/TypeScript-252423?logo=typescript)
 ![Static Badge](https://img.shields.io/badge/Tailwind-252423?logo=tailwindcss)
 ![Static Badge](https://img.shields.io/badge/MongoDB-252423?logo=mongodb)
+![Static Badge](https://img.shields.io/badge/Jest-252423?logo=jest)
+![Static Badge](https://img.shields.io/badge/Cypress-252423?logo=cypress)
 ![Static Badge](https://img.shields.io/badge/Prettier-252423?logo=prettier)
 
 ---

@@ -5,7 +5,6 @@ async function reqChecker(req: Request, reqLength: number) {
   try {
     requestData = await req.json();
   } catch (e) {
-    console.error(e);
     throw new Error("Invalid request");
   }
 
