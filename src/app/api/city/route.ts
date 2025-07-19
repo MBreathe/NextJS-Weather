@@ -9,8 +9,7 @@ export async function POST(req: Request) {
     requestData = await reqChecker(req, 1);
   } catch (e) {
     console.error(e);
-    if (e instanceof Error) return apiErrorHandler(e.message);
-    return apiErrorHandler("Invalid request");
+    return apiErrorHandler(e instanceof Error ? e.message : "Invalid request");
   }
 
   const city = await cityPicker();
@@ -27,6 +26,6 @@ export async function POST(req: Request) {
     return new Response(JSON.stringify(data));
   } catch (e) {
     console.error(e);
-    return apiErrorHandler("Error while fetching data from external API", 500);
+    return apiErrorHandler(e instanceof Error ? e.message : "Error while fetching data from external API", 500);
   }
 }

@@ -1,7 +1,5 @@
 async function fetcher(url: string, options?: RequestInit) {
-  if (!url) return console.error("URL was not provided to the fetcher");
-
-  console.log(options);
+  if (!url) throw new Error("No url provided");
 
   const response = await fetch(url, options);
   if (!response.ok) {
